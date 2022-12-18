@@ -4,16 +4,106 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My CV</title>
+    <title>CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    h1>My CV</h1>
-<p>Some text</p>
-<h3>Section1</h3>
-<ul>
-    <li>Place1</li>
-    <li>Place2</li>
-    <li>Place3</li>
-</ul>
-</body>
+    <header class="header">
+        <div class="container header-container">
+          <nav class="nav">
+            <ul class="nav-list">          
+              <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+              <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+              <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>          
+              <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+              <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+            </ul>
+          </nav>
+          <div class="toggle">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <div class="container main-container">
+          <section class="section section-profile" id="profile">
+            <img src="assets/img/my-photo/Untitled.png" alt="" class="section-profile-logo">
+            <div class="section-profile-title">
+              <h1 class="section-title main-title">Vladislav Yasinskiy</h1>
+              <h3 class="section-subtitle">Junior Software Engineer</h3>
+            </div>        
+          </section>
+          <section class="section" id="contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+              <li class="section-item contacts-item">
+                Moscow, Russian
+              </li>
+              <li class="section-item contacts-item">
+                Email: <a href="mailto:jasinski.vlad@mail.com" title="email">jasinski.vlad@mail.com</a>
+              </li>
+              <li class="section-item contacts-item">
+                Github: <a href="https://github.com/yasinskiy-vlad" title="github">yasinskiy-vlad</a>
+              </li>
+              </li>
+              <li class="section-item contacts-item">
+                Discord: <a href="https://discord.gg/zUr7wWYPXE" title="github">Vladislav Yasinskiy#1357</a>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="summary">
+            <h2 class="section-title">Summary</h2>
+            <p>
+              I'd like to become a software engineer
+            </p>
+          </section>
+          <section class="section" id="skills">
+            <h2 class="section-title">Skills</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Web-development:<span> HTML5, CSS3, JavaScript</span>
+              </li>
+              <li class="section-item">
+                Version control:<span> GIT, Github</span>
+              </li>
+              <li class="section-item">
+                Graphics:<span> Figma</span>
+              </li>
+            </ul>
+          </section>
+          </section>
+          <section class="section" id="courses">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+              <li class="section-item">
+                Hexlet<span> - HTML for beginner</span>
+              </li>
+              <li class="section-item">
+                Hexlet<span> - CSS for beginner</span>
+              </li>
+              <li class="section-item">
+                The Rolling Scopes School<span> - JavaScript/Front-end. Stage 0 </span>
+              </li>
+            </ul>
+          </section>
+          <section class="section section-education" id="education">
+            <h2 class="section-title">Education</h2>
+            <p>State University of Management (Moscow)</p>
+          </section>
+          <section class="section section-english" id="english">
+            <h2 class="section-title">English</h2>
+            <p>A2</p>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="container footer-container">
+          <div>© 2022 <a href="https://github.com/yasinskiy-vlad" class="github nav-link">yasinskiy-vlad</a></div>
+          <a href="https://rs.school/js/" class="rss"></a>
+        </div>
+      </footer>
 </html>
